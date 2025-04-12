@@ -7,11 +7,3 @@ __pycache__/
 # Ignore virtual environment directories
 venv/
 env/
-
-# Ignore Dockerfile and other configuration files
-Dockerfile
-requirements.txt
-README.md
-
-# Ignore model files if they are large and not needed in the image
-model/
