@@ -8,3 +8,10 @@ Dockerized WebAPI for RUSpam/spam_deberta_v4
 ```bash
 docker run 
 ```
+
+Response:
+```json
+{
+  "result": true
+}
+```

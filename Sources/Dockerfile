@@ -3,7 +3,8 @@ FROM python:3.13.3-alpine3.21@sha256:18159b2be11db91f84b8f8f655cd860f805dbd9e49a
 WORKDIR /app
 
 RUN pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cpu
-RUN pip install transformers
+RUN pip install transformers==4.51.2
+RUN pip install Flask==3.1.0
 
 COPY . .
 RUN python app.py --download-model
