@@ -10,7 +10,7 @@ def classify_text():
     data = request.get_json()
     text = data.get('text', '')
     result = predict(text)
-    return jsonify({'is_spam': result})
+    return jsonify({'isSpam': result})
 
 
 if __name__ == '__main__':
