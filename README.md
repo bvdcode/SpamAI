@@ -20,7 +20,7 @@ Response:
 
 ```json
 {
-  "result": true
+  "isSpam": true
 }
 ```
 
