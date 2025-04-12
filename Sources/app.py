@@ -16,4 +16,5 @@ def classify_text():
 if __name__ == '__main__':
     if len(sys.argv) > 1 and sys.argv[1] == "download-model":
         download_model()
-    app.run(host='0.0.0.0', port=8080)
+    else:
+        app.run(host='0.0.0.0', port=8080)
