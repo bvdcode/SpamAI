@@ -34,5 +34,5 @@ jobs:
         with:
           context: Sources
           push: true
-          tags: ghcr.io/${{ github.repository_owner }}/octockup:latest
-          file: Sources/Octockup.Server/Dockerfile
+          tags: ghcr.io/${{ github.repository_owner }}/spamai:latest
+          file: Sources/Dockerfile
