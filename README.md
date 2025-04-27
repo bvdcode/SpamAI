@@ -4,6 +4,10 @@ Dockerized WebAPI for [RUSpam/spam_deberta_v4](https://huggingface.co/RUSpam/spa
 
 > Live URL: https://spamai.belov.us/predict
 
+```bash
+curl -X POST https://spamai.belov.us/predict -H "Content-Type: application/json" -d '{ "text": "Привет! Ищешь заработок в интернете?" }'
+```
+
 
 # How to run
 
@@ -17,10 +21,6 @@ Send test request:
 
 ```bash
 curl -X POST http://localhost:8080/predict -H "Content-Type: application/json" -d '{ "text": "Привет! Ищешь заработок в интернете?" }'
-```
-or using live url:
-```bash
-curl -X POST https://spamai.belov.us/predict -H "Content-Type: application/json" -d '{ "text": "Привет! Ищешь заработок в интернете?" }'
 ```
 
 Response:
