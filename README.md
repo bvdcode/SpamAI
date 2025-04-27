@@ -18,6 +18,10 @@ Send test request:
 ```bash
 curl -X POST http://localhost:8080/predict -H "Content-Type: application/json" -d '{ "text": "Привет! Ищешь заработок в интернете?" }'
 ```
+or using live url:
+```bash
+curl -X POST https://spamai.belov.us/predict -H "Content-Type: application/json" -d '{ "text": "Привет! Ищешь заработок в интернете?" }'
+```
 
 Response:
 
@@ -75,7 +79,7 @@ It returns a JSON response indicating whether the text is classified as spam:
 
 ```json
 {
-  "result": true
+  "isSpam": true
 }
 ```
 
